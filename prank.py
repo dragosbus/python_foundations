@@ -12,6 +12,6 @@ def change_name():
     
     #for each file,rename filenames
     for f in files:
-        os.rename("{}/{}".format(directory,f),"{}/{}".format(directory,f[2:]))
+        os.rename("{}/{}".format(directory,f),"{}/{}".format(directory,f.strip('0123456789')))
 
 change_name()
