@@ -32,4 +32,6 @@ revenant = media.Movie("The Revenant",
                      "https://www.youtube.com/watch?v=QRfj1VCg16Y")
                      
 movies = [toy_story, avatar, avengers, guardian2, hunger2, revenant];
-website.open_movies_page(movies);
+#website.open_movies_page(movies);
+
+print(media.Movie.__module__)
